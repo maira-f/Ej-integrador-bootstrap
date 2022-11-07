@@ -100,3 +100,31 @@ header {
 footer {
     background-image: linear-gradient(to right, #1D3947, #1E5371);
 }
+
+@media (min-width: 992px) {
+#formulario {
+    margin-left: 8.5rem;
+    margin-right: 8.5rem;
+
+}
+
+#btnBorrar {
+    align-content: flex-start;
+}
+
+#btnResumen {
+    align-content: flex-end;
+}
+
+}
+
+@media (max-width: 767px) {
+
+    #formulario button {
+       align-content: center;
+       margin-top: 0.2rem;
+       margin-bottom: 0.2rem;
+    
+    }
+    
+}
